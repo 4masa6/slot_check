@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div id="app">
+    <HelloWorld title="slot">
+      <!-- HelloWorldコンポーネントの<slot />の部分にこのテキストが入る -->
+      <p>this is default text</p>
+    </HelloWorld>
+  </div>
 </template>
 
 <script>
